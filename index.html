@@ -1,179 +1,75 @@
-
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DocuFast – Crea documentos en minutos</title>
-  <meta name="description" content="Crea documentos profesionales ingresando solo datos básicos. Rápido, fácil y automático." />
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="favicon.png">
 
-    body {
-      background: linear-gradient(135deg, #0f172a, #020617);
-      color: #e5e7eb;
-      line-height: 1.6;
-    }
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-    header {
-      padding: 80px 20px;
-      text-align: center;
-      max-width: 1100px;
-      margin: auto;
-    }
-
-    header h1 {
-      font-size: clamp(2.5rem, 5vw, 3.5rem);
-      margin-bottom: 20px;
-      color: #f8fafc;
-    }
-
-    header p {
-      font-size: 1.2rem;
-      color: #cbd5f5;
-      max-width: 600px;
-      margin: auto;
-    }
-
-    .cta {
-      margin-top: 40px;
-    }
-
-    .cta a {
-      background: #6366f1;
-      color: white;
-      padding: 15px 32px;
-      border-radius: 999px;
-      text-decoration: none;
-      font-size: 1.1rem;
-      font-weight: 600;
-      transition: transform 0.2s ease, background 0.2s ease;
-      display: inline-block;
-    }
-
-    .cta a:hover {
-      background: #4f46e5;
-      transform: translateY(-2px);
-    }
-
-    section {
-      padding: 80px 20px;
-      max-width: 1100px;
-      margin: auto;
-    }
-
-    .features {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 30px;
-    }
-
-    .feature {
-      background: rgba(255, 255, 255, 0.05);
-      border-radius: 20px;
-      padding: 30px;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-    }
-
-    .feature h3 {
-      margin-bottom: 10px;
-      color: #a5b4fc;
-    }
-
-    .how-it-works {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 30px;
-      text-align: center;
-    }
-
-    .step {
-      padding: 20px;
-    }
-
-    .step span {
-      display: inline-block;
-      background: #6366f1;
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      line-height: 40px;
-      font-weight: bold;
-      margin-bottom: 15px;
-    }
-
-    footer {
-      padding: 40px 20px;
-      text-align: center;
-      color: #94a3b8;
-      font-size: 0.9rem;
-    }
-  </style>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>ABC Capsico</title>
 </head>
-<body>
 
-  <header>
-    <h1>DocuFast</h1>
-    <p>Crea documentos profesionales en minutos. Solo ingresa tus datos básicos y deja que la app haga el resto.</p>
-    <div class="cta">
-      <a href="#">Probar gratis</a>
-    </div>
-  </header>
+<body class="bg-[#1C4E19] text-white" style="font-family: 'Poppins', 'Nunito Sans', sans-serif;">
 
-  <section>
-    <div class="features">
-      <div class="feature">
-        <h3>⚡ Rápido y automático</h3>
-        <p>Genera contratos, cartas o reportes sin escribir desde cero.</p>
-      </div>
-      <div class="feature">
-        <h3>🧠 Plantillas inteligentes</h3>
-        <p>La app adapta el contenido según los datos que ingreses.</p>
-      </div>
-      <div class="feature">
-        <h3>📄 Documentos profesionales</h3>
-        <p>Formato limpio y listo para descargar en PDF o Word.</p>
-      </div>
-    </div>
-  </section>
+<p class="text-center bg-[#FCE9B8] text-[#1C4D19] py-1 text-sm sm:text-base">
+    Compra un chile, obtén otro gratis - Solo esta semana (Jun 20-28)
+</p>
 
-  <section>
-    <h2 style="text-align:center; margin-bottom:40px;">¿Cómo funciona?</h2>
-    <div class="how-it-works">
-      <div class="step">
-        <span>1</span>
-        <p>Ingresa datos básicos (nombre, fecha, tipo de documento).</p>
-      </div>
-      <div class="step">
-        <span>2</span>
-        <p>Selecciona una plantilla inteligente.</p>
-      </div>
-      <div class="step">
-        <span>3</span>
-        <p>Descarga tu documento listo para usar.</p>
-      </div>
-    </div>
-  </section>
+<nav class="flex flex-col sm:flex-row text-[#FCE9B8] justify-center items-center mt-10 space-y-4 sm:space-y-0 sm:space-x-8">
+    <a href="index.html" class="hover:text-yellow-400">Inicio</a>
+    <a href="productos.html" class="hover:text-yellow-400">Productos</a>
+    <img src="favicon.png" alt="Logo ABC Capsico" class="h-16">
+    <a href="#" class="hover:text-yellow-400">Nosotros</a>
+    <a href="#" class="hover:text-yellow-400">Contacto</a>
+</nav>
 
-  <section>
-    <h2 style="text-align:center; margin-bottom:40px;">Envíanos tu información</h2>
-    <form action="https://formspree.io/f/xreqlqje" method="POST" style="max-width:500px;margin:0 auto;display:flex;flex-direction:column;gap:15px;">
-      <input type="email" name="email" placeholder="Tu correo" required style="padding:12px;border-radius:10px;border:none;" />
-      <input type="text" name="tipo_documento" placeholder="Tipo de documento" required style="padding:12px;border-radius:10px;border:none;" />
-      <input type="number" name="costo" placeholder="Costo estimado" style="padding:12px;border-radius:10px;border:none;" />
-      <textarea name="message" placeholder="Notas adicionales" rows="4" style="padding:12px;border-radius:10px;border:none;"></textarea>
-      <button type="submit" style="padding:14px;border-radius:999px;border:none;background:#6366f1;color:white;font-size:1rem;font-weight:600;cursor:pointer;">Enviar</button>
-    </form>
-  </section>
+<p class="text-center text-[#FCE9B8] mt-16 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold"
+   style="font-family: 'Libre Baskerville', 'Poppins', serif;">
+    <span>Picor que</span><br>
+    <span>marca diferencia</span>
+</p>
 
-  <footer>
-    © 2026 DocuFast · Hecho para ahorrar tiempo
-  </footer>
+<p class="text-center text-[#FCE9B8] text-base py-3 sm:text-lg">
+    Porque la calidad es el inicio de algo aún mejor.
+</p>
+
+<div class="flex flex-col sm:flex-row justify-center mt-5 sm:space-y-0 sm:space-x-6 ">
+    <button class="bg-transparent border-2 border-[#FCE9B8] text-[#FCE9B8] font-semibold px-6 py-2 rounded-full hover:bg-[#FCE9B8] hover:text-[#1C4E19] transition">
+        Explorar productos
+    </button>
+    <button class="bg-transparent border-2 border-[#FCE9B8] text-[#FCE9B8] font-semibold px-6 py-2 rounded-full hover:bg-[#FCE9B8] hover:text-[#1C4E19] transition">
+        Nuestras localidades
+    </button>
+</div>
+
+<!-- Contenedor de productos -->
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-10 px-4 sm:px-8">
+    <!-- Producto 1 -->
+    <a href="carrito.html" class="bg-[#FCE9B8] rounded-2xl overflow-hidden shadow-lg flex flex-col items-center p-4 transition transform hover:scale-105">
+        <img src="habaneroNaranja.webp" alt="Chile Rojo" class="w-full h-48 object-cover rounded-lg">
+        <h3 class="text-[#1C4E19] font-bold text-xl mt-4">Chile Habanero Rojo</h3>
+        <p class="text-[#1C4E19] mt-2 text-center">Picante y sabroso, ideal para salsas.</p>
+    </a>
+
+    <!-- Producto 2 -->
+    <a href="carrito.html" class="bg-[#FCE9B8] rounded-2xl overflow-hidden shadow-lg flex flex-col items-center p-4 transition transform hover:scale-105">
+        <img src="HabaneroRojo.webp" alt="Chile Amarillo" class="w-full h-48 object-cover rounded-lg">
+        <h3 class="text-[#1C4E19] font-bold text-xl mt-4">Chile Habanero Amarillo</h3>
+        <p class="text-[#1C4E19] mt-2 text-center">Dulce y vibrante, perfecto para adobos.</p>
+    </a>
+
+    <!-- Producto 3 -->
+    <a href="carrito.html" class="bg-[#FCE9B8] rounded-2xl overflow-hidden shadow-lg flex flex-col items-center p-4 transition transform hover:scale-105">
+        <img src="HabaneroVerde.webp" alt="Chile Naranja" class="w-full h-48 object-cover rounded-lg">
+        <h3 class="text-[#1C4E19] font-bold text-xl mt-4">Chile Habanero Naranja</h3>
+        <p class="text-[#1C4E19] mt-2 text-center">Aromático y fuerte, ideal para salsas picantes.</p>
+    </a>
+</div>
 
 </body>
 </html>
